@@ -27,3 +27,4 @@ alias du='du -ch'
 # top is atop, just like vi is vim
 alias top='atop'
 E0F
+bash
