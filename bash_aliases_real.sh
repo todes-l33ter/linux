@@ -9,8 +9,8 @@ alias untar='tar -zxvf'
 alias a='alias'
 
 ## a quick way to get out of current directory ##
-alias ..='cd ..'
-alias ...='cd ../../'
+alias ..='cd .. && ls -lah'
+alias ...='cd ../../ && ls -lah'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
 
