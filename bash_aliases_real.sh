@@ -1,6 +1,6 @@
 rm -rf /home/$USER/.bash_aliases
 touch /home/$USER/.bash_aliases
-cat <<E0F >> /home/$USER/.bash_aliases
+cat << 'E0F' >> /home/$USER/.bash_aliases
 
 alias ll='ls --group-directories-first -lah'
 alias grep='grep --color=auto'
@@ -60,11 +60,10 @@ alias dudu='du -S / | sort -nr | head -n50'
 # CD und LS
 function cdls()
 {
-  builtin cd $*
-  ls -lhaG
+  cd "$@" && ls -lah;
 }
 
-alias cdls='cdls'
+alias cs='cdls'
 
 E0F
 bash
