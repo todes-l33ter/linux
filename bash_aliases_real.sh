@@ -1,3 +1,4 @@
+rm -rf /home/$USER/.bash_aliases
 touch /home/$USER/.bash_aliases
 cat <<E0F >> /home/$USER/.bash_aliases
 
