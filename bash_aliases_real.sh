@@ -13,8 +13,8 @@ alias ...='cd ../../ && ls -lah'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
 
-alias linux='pushd /home/l33ter/git/linux'
-alias linuxb='pushd /home/l33ter/git/linux && nano bash_aliases_real.sh'
+alias linux='pushd /home/$USER/git/linux'
+alias linuxb='pushd /home/$USER/git/linux && nano bash_aliases_real.sh'
 
 # handy short cuts #
 alias h='history'
