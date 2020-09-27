@@ -4,7 +4,6 @@ cat << 'E0F' >> /home/$USER/.bash_aliases
 
 alias ll='ls --group-directories-first -lah'
 alias grep='grep --color=auto'
-alias c='clear'
 alias untar='tar -zxvf'
 alias a='alias'
 
@@ -44,6 +43,9 @@ alias rmf='rm -rf -i'
 
 #this will alias two commands mkdir and cd to one mkcd command
 alias mkcd='mkdircd(){ mkdir $1; cd $1; }; mkdircd'
+
+#Scan Ports with netstat
+alias ports='ss -tulanp'
 
 # starts nano with line number enabled
 alias nano='nano -c'
