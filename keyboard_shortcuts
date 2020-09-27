@@ -1,0 +1,44 @@
+# Bash Shell Keyboard Shortcuts
+
+
+# !! ---> Repeats the last command
+
+
+Moving the Cursor
+# Ctrl + A ---> Go to beginning of the line
+# Ctrl + E ---> Go to end of line
+# Ctrl + B ---> Move cursor backward one char
+# Ctrl + F ---> Move cursor forward one char
+# Alt + B ---> Move cursor backward (left) one word
+# Alt + F ---> Move cursor forward (right) one word
+# Ctrl + XX ---> Move between start of command line and current cursor position
+# Ctrl + J/M ---> Enter-Key
+
+
+
+Deleting Text
+# Ctrl + D ---> Delete one char backward after the cursor
+# Alt + D ---> Delete all chars after the cursor
+# Ctrl + H ---> Backsapce
+# Alt + T ---> Swap current word with previous word
+
+Cutting and Pasting
+# Ctrl + W ---> Delete word before cursor
+# Ctrl + K ---> Delete all chars after cursor
+# Ctrl + U ---> Clears line before the cursor position
+# Ctrl + Y ---> Retrieves last item that you deleted
+
+Capitalizing Characters
+# Alt + U ---> All chars after cursor converting to upper case 
+# Alt + L ---> All chars after cursor converting to lower case
+# Alt + C ---> Char under cursor converting to upper case
+
+
+Working With Your Command History
+# Ctrl + P ---> Previous command in the command history
+# Ctrl + N ---> Next command in the command history
+# Alt + R ---> Revert any changes to the pulled command form the history
+# Ctrl + R ---> Search your bash history
+# Ctrl + O ---> Run command from your search
+# Ctrl + G ---> Leave history without running a command
+
