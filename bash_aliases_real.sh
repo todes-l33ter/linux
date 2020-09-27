@@ -13,6 +13,8 @@ alias ...='cd ../../ && ls -lah'
 alias ....='cd ../../../'
 alias .....='cd ../../../../'
 
+alias linux='pushd /home/l33ter/git/linux'
+
 # handy short cuts #
 alias h='history'
 alias j='jobs -l'
