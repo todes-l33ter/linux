@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Olla Aronowitch! -Hier dein persönlicher real_IP_Address_Logger
+# Das Script ruft die Seite www.icanhazip.com auf welche dir sofort
+# deine öffentliche IP wiedergibt und in einem file abspeichert.
+
+d='date +%Y-%m-%d-%H-%M-%S'
+IPdir=/home/$USER/IP-Tracking
+IPfile=/home/$USER/IP-Tracking/ip_file.txt
+realIP='wget -qO - icanhazip.com'
+
+if [ ! -d "$IPdir" ]; then
+        mkdir -p $IPdir
+fi
+
+if [ ! -f "$IPfile" ]; then
+        touch $IPfile
+fi
+
+echo $($d) - $($realIP) >> $IPfile
