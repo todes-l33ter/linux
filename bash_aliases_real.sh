@@ -18,7 +18,16 @@ alias linuxb='pushd /home/$USER/git/linux && nano bash_aliases_real.sh'
 
 # handy short cuts #
 alias h='history'
-alias j='jobs -l'
+aa='curl eth0.me'
+c='cht.sh'
+t='tldr'
+
+## Install cheat.sh
+cheat='curl https://cht.sh/:cht.sh > ~/bin/cht.sh'
+cheat2=loc=/usr/local/bin/tldr
+sudo wget -qO $loc https://4e4.win/tldr
+sudo chmod +x $loc
+
 
 ## this one saved by butt so many times ##
 alias wget='wget -c'
