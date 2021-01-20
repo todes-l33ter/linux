@@ -51,7 +51,9 @@ alias wcl='wc -l'
 # Find a file from the current directory
 alias ff='find . -name '
 # Find a file/directory exclude a specific directory/file
-find / -path /mnt{exludedir} -prune -o -name 'DL' -print 
+find / -path /mnt{exludedir} -prune -o -name 'DL' -print
+# Find a file/directory exclude multiple specific directory/file
+sudo find / \( -path /mnt/f -o -path /mnt/c \) -prune -o -name 'DL' -print
 
 alias rmf='rm -rf -i'
 
