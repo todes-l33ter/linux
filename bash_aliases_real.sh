@@ -23,10 +23,10 @@ c='cht.sh'
 t='tldr'
 
 ## Install cheat.sh
-cheat='curl https://cht.sh/:cht.sh > ~/bin/cht.sh'
-cheat2=loc=/usr/local/bin/tldr
-sudo wget -qO $loc https://4e4.win/tldr
-sudo chmod +x $loc
+#cheat='curl https://cht.sh/:cht.sh > ~/bin/cht.sh'
+#cheat2=loc=/usr/local/bin/tldr
+#sudo wget -qO $loc https://4e4.win/tldr
+#sudo chmod +x $loc
 
 
 ## this one saved by butt so many times ##
@@ -65,6 +65,9 @@ alias ports='ss -tulanp'
 
 # starts nano with line number enabled
 alias nano='nano -c'
+
+# neonvim shortcut
+alias n='nvim '
 
 # Sort directories by sizes
 alias dush='du -h --max-depth=1 | sort -h'
