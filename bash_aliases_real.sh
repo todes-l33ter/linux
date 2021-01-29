@@ -65,6 +65,7 @@ alias ports='ss -tulanp'
 
 # starts nano with line number enabled
 alias nano='nano -c'
+alias todes='git clone https://github.com/todes-l33ter/linux'
 
 # neonvim shortcut
 alias n='nvim '
