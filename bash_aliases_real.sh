@@ -63,6 +63,9 @@ alias mkcd='mkdircd(){ mkdir $1; cd $1; }; mkdircd'
 #Scan Ports with netstat
 alias ports='ss -tulanp'
 
+#Short sudo apt install
+alias sai='sudo apt install '
+
 # starts nano with line number enabled
 alias nano='nano -c'
 alias todes='git clone https://github.com/todes-l33ter/linux'
